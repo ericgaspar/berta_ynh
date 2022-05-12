@@ -2,6 +2,6 @@ SOURCE_URL=https://github.com/berta-cms/berta/releases/download/v1.9.3/berta.zip
 SOURCE_SUM=4a15846ee55315fe6e1c5aeb61a483b19e2b4de156d278995693b84e30ca7a57
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
-SOURCE_IN_SUBDIR=true
+SOURCE_IN_SUBDIR=false
 SOURCE_FILENAME=
 SOURCE_EXTRACT=true
