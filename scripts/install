@@ -104,7 +104,7 @@ ynh_add_fpm_config
 ynh_script_progression --message="Adding a configuration file..." --time --weight=1
 
 ynh_add_config --template="../conf/inc.conf.php" --destination="$final_path/engine/config/inc.conf.php"
-ynh_add_config --template="../conf/.env" --destination="$final_path/_api_app/.env"
+#ynh_add_config --template="../conf/.env" --destination="$final_path/_api_app/.env"
 
 chmod 400 "$final_path/engine/config/inc.conf.php"
 chown $app:$app "$final_path/engine/config/inc.conf.php"
